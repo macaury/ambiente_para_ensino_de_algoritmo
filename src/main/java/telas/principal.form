@@ -4,7 +4,7 @@
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-      <Color blue="16" green="f2" red="f2" type="rgb"/>
+      <Color blue="ff" green="ff" red="ff" type="rgb"/>
     </Property>
   </Properties>
   <SyntheticProperties>
@@ -50,8 +50,10 @@
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="b2" green="a4" red="60" type="rgb"/>
         </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
         <Property name="orientation" type="int" value="1"/>
-        <Property name="rollover" type="boolean" value="true"/>
       </Properties>
 
       <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
@@ -416,6 +418,8 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Slides"/>
+                <Property name="alignmentX" type="float" value="0.5"/>
+                <Property name="opaque" type="boolean" value="true"/>
               </Properties>
             </Component>
           </SubComponents>
@@ -425,7 +429,11 @@
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
-            <Property name="rollover" type="boolean" value="true"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="null"/>
+            </Property>
+            <Property name="alignmentY" type="float" value="0.5"/>
+            <Property name="requestFocusEnabled" type="boolean" value="false"/>
           </Properties>
 
           <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>

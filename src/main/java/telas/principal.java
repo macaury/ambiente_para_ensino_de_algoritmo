@@ -63,11 +63,11 @@ public class principal extends javax.swing.JFrame {
         filler10 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 0), new java.awt.Dimension(0, 0), new java.awt.Dimension(32767, 0));
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setBackground(new java.awt.Color(242, 242, 22));
+        setBackground(new java.awt.Color(255, 255, 255));
 
         jToolBar1.setBackground(new java.awt.Color(96, 164, 178));
+        jToolBar1.setBorder(null);
         jToolBar1.setOrientation(javax.swing.SwingConstants.VERTICAL);
-        jToolBar1.setRollover(true);
         jToolBar1.add(filler6);
 
         jButton1.setBackground(new java.awt.Color(96, 164, 178));
@@ -159,6 +159,8 @@ public class principal extends javax.swing.JFrame {
         jButton11.setFont(new java.awt.Font("Helvetica Neue", 1, 20)); // NOI18N
         jButton11.setForeground(new java.awt.Color(255, 255, 255));
         jButton11.setText("Slides");
+        jButton11.setAlignmentX(0.5F);
+        jButton11.setOpaque(true);
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -186,7 +188,9 @@ public class principal extends javax.swing.JFrame {
         );
 
         jToolBar2.setBackground(new java.awt.Color(255, 255, 255));
-        jToolBar2.setRollover(true);
+        jToolBar2.setBorder(null);
+        jToolBar2.setAlignmentY(0.5F);
+        jToolBar2.setRequestFocusEnabled(false);
         jToolBar2.add(filler11);
 
         jButton12.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/navegacao.png")); // NOI18N
