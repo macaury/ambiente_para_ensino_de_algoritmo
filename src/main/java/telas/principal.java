@@ -28,26 +28,26 @@ public class principal extends javax.swing.JFrame {
 
         jToolBar1 = new javax.swing.JToolBar();
         filler6 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 15), new java.awt.Dimension(0, 15), new java.awt.Dimension(32767, 15));
-        jButton1 = new javax.swing.JButton();
+        btn_home = new javax.swing.JButton();
         filler1 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 60), new java.awt.Dimension(0, 60), new java.awt.Dimension(32767, 60));
-        jButton2 = new javax.swing.JButton();
+        btn_variavel = new javax.swing.JButton();
         filler2 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 60), new java.awt.Dimension(0, 60), new java.awt.Dimension(32767, 60));
-        jButton6 = new javax.swing.JButton();
+        btn_for = new javax.swing.JButton();
         filler3 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 60), new java.awt.Dimension(0, 60), new java.awt.Dimension(32767, 60));
-        jButton5 = new javax.swing.JButton();
+        btn_array = new javax.swing.JButton();
         filler4 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 60), new java.awt.Dimension(0, 60), new java.awt.Dimension(32767, 60));
-        jButton4 = new javax.swing.JButton();
+        btn_IF = new javax.swing.JButton();
         filler5 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 60), new java.awt.Dimension(0, 60), new java.awt.Dimension(32767, 60));
-        jButton3 = new javax.swing.JButton();
+        btn_while = new javax.swing.JButton();
         filler8 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 0), new java.awt.Dimension(0, 0), new java.awt.Dimension(0, 32767));
-        jButton7 = new javax.swing.JButton();
+        btn_help = new javax.swing.JButton();
         filler9 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 40), new java.awt.Dimension(0, 40), new java.awt.Dimension(32767, 40));
-        jButton8 = new javax.swing.JButton();
+        btn_ajustes = new javax.swing.JButton();
         filler7 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 15), new java.awt.Dimension(0, 15), new java.awt.Dimension(32767, 15));
         panel1 = new java.awt.Panel();
         jPanel2 = new javax.swing.JPanel();
-        jButton9 = new javax.swing.JButton();
-        jButton10 = new javax.swing.JButton();
+        btn_slide_atual = new javax.swing.JButton();
+        btn_novo_slide = new javax.swing.JButton();
         jButton11 = new javax.swing.JButton();
         jToolBar2 = new javax.swing.JToolBar();
         filler11 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 0), new java.awt.Dimension(0, 0), new java.awt.Dimension(32767, 0));
@@ -70,90 +70,95 @@ public class principal extends javax.swing.JFrame {
         jToolBar1.setOrientation(javax.swing.SwingConstants.VERTICAL);
         jToolBar1.add(filler6);
 
-        jButton1.setBackground(new java.awt.Color(96, 164, 178));
-        jButton1.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/home.png")); // NOI18N
-        jButton1.setAlignmentX(0.5F);
-        jButton1.setFocusable(false);
-        jButton1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jButton1.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        jToolBar1.add(jButton1);
+        btn_home.setBackground(new java.awt.Color(96, 164, 178));
+        btn_home.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/home.png")); // NOI18N
+        btn_home.setAlignmentX(0.5F);
+        btn_home.setFocusable(false);
+        btn_home.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        btn_home.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        btn_home.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_homeActionPerformed(evt);
+            }
+        });
+        jToolBar1.add(btn_home);
         jToolBar1.add(filler1);
 
-        jButton2.setBackground(new java.awt.Color(96, 164, 178));
-        jButton2.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/Union-2.png")); // NOI18N
-        jButton2.setAlignmentX(0.5F);
-        jButton2.setFocusable(false);
-        jButton2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jButton2.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        jToolBar1.add(jButton2);
+        btn_variavel.setBackground(new java.awt.Color(96, 164, 178));
+        btn_variavel.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/Union-2.png")); // NOI18N
+        btn_variavel.setAlignmentX(0.5F);
+        btn_variavel.setFocusable(false);
+        btn_variavel.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        btn_variavel.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jToolBar1.add(btn_variavel);
         jToolBar1.add(filler2);
 
-        jButton6.setBackground(new java.awt.Color(96, 164, 178));
-        jButton6.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/for.png")); // NOI18N
-        jButton6.setToolTipText("");
-        jButton6.setAlignmentX(0.5F);
-        jButton6.setFocusable(false);
-        jButton6.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jButton6.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        jToolBar1.add(jButton6);
+        btn_for.setBackground(new java.awt.Color(96, 164, 178));
+        btn_for.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/for.png")); // NOI18N
+        btn_for.setToolTipText("");
+        btn_for.setAlignmentX(0.5F);
+        btn_for.setFocusable(false);
+        btn_for.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        btn_for.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jToolBar1.add(btn_for);
         jToolBar1.add(filler3);
 
-        jButton5.setBackground(new java.awt.Color(96, 164, 178));
-        jButton5.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/[][].png")); // NOI18N
-        jButton5.setAlignmentX(0.5F);
-        jButton5.setFocusable(false);
-        jButton5.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jButton5.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        jToolBar1.add(jButton5);
+        btn_array.setBackground(new java.awt.Color(96, 164, 178));
+        btn_array.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/[][].png")); // NOI18N
+        btn_array.setAlignmentX(0.5F);
+        btn_array.setFocusable(false);
+        btn_array.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        btn_array.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jToolBar1.add(btn_array);
         jToolBar1.add(filler4);
 
-        jButton4.setBackground(new java.awt.Color(96, 164, 178));
-        jButton4.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/VF.png")); // NOI18N
-        jButton4.setAlignmentX(0.5F);
-        jButton4.setFocusable(false);
-        jButton4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jButton4.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        jToolBar1.add(jButton4);
+        btn_IF.setBackground(new java.awt.Color(96, 164, 178));
+        btn_IF.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/VF.png")); // NOI18N
+        btn_IF.setAlignmentX(0.5F);
+        btn_IF.setFocusable(false);
+        btn_IF.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        btn_IF.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jToolBar1.add(btn_IF);
         jToolBar1.add(filler5);
 
-        jButton3.setBackground(new java.awt.Color(96, 164, 178));
-        jButton3.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/Vector 2.png")); // NOI18N
-        jButton3.setAlignmentX(0.5F);
-        jButton3.setFocusable(false);
-        jButton3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jButton3.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        jToolBar1.add(jButton3);
+        btn_while.setBackground(new java.awt.Color(96, 164, 178));
+        btn_while.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/Vector 2.png")); // NOI18N
+        btn_while.setAlignmentX(0.5F);
+        btn_while.setFocusable(false);
+        btn_while.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        btn_while.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jToolBar1.add(btn_while);
         jToolBar1.add(filler8);
 
-        jButton7.setBackground(new java.awt.Color(96, 164, 178));
-        jButton7.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/ajuda.png")); // NOI18N
-        jButton7.setAlignmentX(0.5F);
-        jButton7.setFocusable(false);
-        jButton7.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jButton7.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        jToolBar1.add(jButton7);
+        btn_help.setBackground(new java.awt.Color(96, 164, 178));
+        btn_help.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/ajuda.png")); // NOI18N
+        btn_help.setAlignmentX(0.5F);
+        btn_help.setFocusable(false);
+        btn_help.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        btn_help.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jToolBar1.add(btn_help);
         jToolBar1.add(filler9);
 
-        jButton8.setBackground(new java.awt.Color(96, 164, 178));
-        jButton8.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/configuracao.png")); // NOI18N
-        jButton8.setAlignmentX(0.5F);
-        jButton8.setFocusable(false);
-        jButton8.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jButton8.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        jToolBar1.add(jButton8);
+        btn_ajustes.setBackground(new java.awt.Color(96, 164, 178));
+        btn_ajustes.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/configuracao.png")); // NOI18N
+        btn_ajustes.setAlignmentX(0.5F);
+        btn_ajustes.setFocusable(false);
+        btn_ajustes.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        btn_ajustes.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jToolBar1.add(btn_ajustes);
         jToolBar1.add(filler7);
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
         jPanel2.setPreferredSize(new java.awt.Dimension(530, 170));
 
-        jButton9.setBackground(new java.awt.Color(255, 250, 255));
-        jButton9.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
-        jButton9.setText("atual");
+        btn_slide_atual.setBackground(new java.awt.Color(255, 250, 255));
+        btn_slide_atual.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
+        btn_slide_atual.setText("atual");
 
-        jButton10.setBackground(new java.awt.Color(255, 250, 255));
-        jButton10.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/add.png")); // NOI18N
-        jButton10.setMaximumSize(null);
-        jButton10.setPreferredSize(new java.awt.Dimension(150, 150));
+        btn_novo_slide.setBackground(new java.awt.Color(255, 250, 255));
+        btn_novo_slide.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/add.png")); // NOI18N
+        btn_novo_slide.setMaximumSize(null);
+        btn_novo_slide.setPreferredSize(new java.awt.Dimension(150, 150));
 
         jButton11.setBackground(new java.awt.Color(96, 164, 178));
         jButton11.setFont(new java.awt.Font("Helvetica Neue", 1, 20)); // NOI18N
@@ -168,9 +173,9 @@ public class principal extends javax.swing.JFrame {
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
                 .addGap(83, 83, 83)
-                .addComponent(jButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btn_slide_atual, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 87, Short.MAX_VALUE)
-                .addComponent(jButton10, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btn_novo_slide, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(70, 70, 70))
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addComponent(jButton11, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -182,8 +187,8 @@ public class principal extends javax.swing.JFrame {
                 .addComponent(jButton11, javax.swing.GroupLayout.DEFAULT_SIZE, 38, Short.MAX_VALUE)
                 .addGap(18, 18, 18)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jButton10, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(btn_novo_slide, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn_slide_atual, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(19, 19, 19))
         );
 
@@ -271,6 +276,11 @@ public class principal extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    private void btn_homeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_homeActionPerformed
+        
+        
+    }//GEN-LAST:event_btn_homeActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -308,6 +318,16 @@ public class principal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btn_IF;
+    private javax.swing.JButton btn_ajustes;
+    private javax.swing.JButton btn_array;
+    private javax.swing.JButton btn_for;
+    private javax.swing.JButton btn_help;
+    private javax.swing.JButton btn_home;
+    private javax.swing.JButton btn_novo_slide;
+    private javax.swing.JButton btn_slide_atual;
+    private javax.swing.JButton btn_variavel;
+    private javax.swing.JButton btn_while;
     private javax.swing.Box.Filler filler1;
     private javax.swing.Box.Filler filler10;
     private javax.swing.Box.Filler filler11;
@@ -323,22 +343,12 @@ public class principal extends javax.swing.JFrame {
     private javax.swing.Box.Filler filler7;
     private javax.swing.Box.Filler filler8;
     private javax.swing.Box.Filler filler9;
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
     private javax.swing.JButton jButton12;
     private javax.swing.JButton jButton13;
     private javax.swing.JButton jButton14;
     private javax.swing.JButton jButton15;
     private javax.swing.JButton jButton16;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton7;
-    private javax.swing.JButton jButton8;
-    private javax.swing.JButton jButton9;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JToolBar jToolBar1;
     private javax.swing.JToolBar jToolBar2;

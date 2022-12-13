@@ -1,7 +1,14 @@
 telas/principal$1.class
 telas/principal.class
 com/mycompany/ambiente_para_ensino_de_algoritmo/Ambiente_para_ensino_de_algoritmo.class
+components/comp_variavel$3.class
+components/comp_variavel$2.class
+telas/Ajustes$1.class
+telas/principal$2.class
+telas/Ajustes$2.class
+components/comp_variavel$1.class
+components/comp_variavel.class
+telas/Ajustes$3.class
 telas/pop_up_Atencao.class
 telas/Ajustes.class
-telas/Ajustes$1.class
-telas/pop_up_Atencao$1.class
+components/COMP_var_teste.class
