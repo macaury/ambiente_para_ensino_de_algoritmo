@@ -71,7 +71,7 @@ public class principal extends javax.swing.JFrame {
         jToolBar1.add(filler6);
 
         btn_home.setBackground(new java.awt.Color(96, 164, 178));
-        btn_home.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icones/home.png"))); // NOI18N
+        btn_home.setIcon(new javax.swing.ImageIcon("../src/main/java/icones/home.png"));
         btn_home.setAlignmentX(0.5F);
         btn_home.setFocusable(false);
         btn_home.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
