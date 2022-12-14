@@ -82,7 +82,7 @@ public class Ajustes extends javax.swing.JFrame {
         jButton4.setBackground(new java.awt.Color(96, 164, 178));
         jButton4.setFont(new java.awt.Font("Helvetica Neue", 0, 20)); // NOI18N
         jButton4.setForeground(new java.awt.Color(255, 255, 255));
-        jButton4.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/Documents/GitHub/ambiente_para_ensino_de_algoritmo/src/main/java/icones/Group 39.png")); // NOI18N
+        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icones/ajuda_ajustes.png"))); // NOI18N
         jButton4.setText("  Ajuda");
         jButton4.setToolTipText("");
         jButton4.setAlignmentX(0.5F);
@@ -97,7 +97,7 @@ public class Ajustes extends javax.swing.JFrame {
         jButton5.setBackground(new java.awt.Color(96, 164, 178));
         jButton5.setFont(new java.awt.Font("Helvetica Neue", 0, 20)); // NOI18N
         jButton5.setForeground(new java.awt.Color(255, 255, 255));
-        jButton5.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/Documents/GitHub/ambiente_para_ensino_de_algoritmo/src/main/java/icones/configuracao_ajustes.png")); // NOI18N
+        jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icones/configuracao_ajustes.png"))); // NOI18N
         jButton5.setText("  Ajustes");
         jButton5.setBorder(null);
         jButton5.addActionListener(new java.awt.event.ActionListener() {
@@ -135,8 +135,8 @@ public class Ajustes extends javax.swing.JFrame {
                 .addGap(34, 34, 34)
                 .addComponent(jButton3)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 356, Short.MAX_VALUE)
-                .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(50, 50, 50)
+                .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(41, 41, 41)
                 .addComponent(jButton5)
                 .addGap(70, 70, 70))
         );
@@ -146,7 +146,7 @@ public class Ajustes extends javax.swing.JFrame {
         jLabel1.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/Documents/GitHub/ambiente_para_ensino_de_algoritmo/src/main/java/icones/lampada.png")); // NOI18N
         jLabel1.setText("  Todos projetos");
 
-        jButton6.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/Documents/GitHub/ambiente_para_ensino_de_algoritmo/src/main/java/icones/add.png")); // NOI18N
+        jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icones/add.png"))); // NOI18N
         jButton6.setToolTipText("novo projeto");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());

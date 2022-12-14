@@ -80,7 +80,7 @@
               <Color blue="b2" green="a4" red="60" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/home.png"/>
+              <Image iconType="3" name="/icones/home.png"/>
             </Property>
             <Property name="alignmentX" type="float" value="0.5"/>
             <Property name="focusable" type="boolean" value="false"/>
@@ -113,7 +113,7 @@
               <Color blue="b2" green="a4" red="60" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/Union-2.png"/>
+              <Image iconType="3" name="/icones/Union-2.png"/>
             </Property>
             <Property name="alignmentX" type="float" value="0.5"/>
             <Property name="focusable" type="boolean" value="false"/>
@@ -143,7 +143,7 @@
               <Color blue="b2" green="a4" red="60" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/for.png"/>
+              <Image iconType="3" name="/icones/for.png"/>
             </Property>
             <Property name="toolTipText" type="java.lang.String" value=""/>
             <Property name="alignmentX" type="float" value="0.5"/>
@@ -174,7 +174,7 @@
               <Color blue="b2" green="a4" red="60" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/[][].png"/>
+              <Image iconType="3" name="/icones/[][].png"/>
             </Property>
             <Property name="alignmentX" type="float" value="0.5"/>
             <Property name="focusable" type="boolean" value="false"/>
@@ -204,7 +204,7 @@
               <Color blue="b2" green="a4" red="60" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/VF.png"/>
+              <Image iconType="3" name="/icones/VF.png"/>
             </Property>
             <Property name="alignmentX" type="float" value="0.5"/>
             <Property name="focusable" type="boolean" value="false"/>
@@ -234,7 +234,7 @@
               <Color blue="b2" green="a4" red="60" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/Vector 2.png"/>
+              <Image iconType="3" name="/icones/Vector 2.png"/>
             </Property>
             <Property name="alignmentX" type="float" value="0.5"/>
             <Property name="focusable" type="boolean" value="false"/>
@@ -258,7 +258,7 @@
               <Color blue="b2" green="a4" red="60" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/ajuda.png"/>
+              <Image iconType="3" name="/icones/ajuda.png"/>
             </Property>
             <Property name="alignmentX" type="float" value="0.5"/>
             <Property name="focusable" type="boolean" value="false"/>
@@ -288,7 +288,7 @@
               <Color blue="b2" green="a4" red="60" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/configuracao.png"/>
+              <Image iconType="3" name="/icones/configuracao.png"/>
             </Property>
             <Property name="alignmentX" type="float" value="0.5"/>
             <Property name="focusable" type="boolean" value="false"/>
@@ -399,7 +399,7 @@
                   <Color blue="ff" green="fa" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/add.png"/>
+                  <Image iconType="3" name="/icones/add.png"/>
                 </Property>
                 <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                   <Dimension value="null"/>
@@ -454,7 +454,7 @@
             <Component class="javax.swing.JButton" name="jButton12">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/navegacao.png"/>
+                  <Image iconType="3" name="/icones/navegacao.png"/>
                 </Property>
                 <Property name="toolTipText" type="java.lang.String" value=""/>
                 <Property name="focusable" type="boolean" value="false"/>
@@ -481,7 +481,7 @@
             <Component class="javax.swing.JButton" name="jButton13">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/editar.png"/>
+                  <Image iconType="3" name="/icones/editar.png"/>
                 </Property>
                 <Property name="focusable" type="boolean" value="false"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -507,7 +507,7 @@
             <Component class="javax.swing.JButton" name="jButton14">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/apagar.png"/>
+                  <Image iconType="3" name="/icones/apagar.png"/>
                 </Property>
                 <Property name="focusable" type="boolean" value="false"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -533,7 +533,7 @@
             <Component class="javax.swing.JButton" name="jButton15">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/aumentar-zoom.png"/>
+                  <Image iconType="3" name="/icones/aumentar-zoom.png"/>
                 </Property>
                 <Property name="alignmentX" type="float" value="0.5"/>
                 <Property name="focusable" type="boolean" value="false"/>
@@ -560,7 +560,7 @@
             <Component class="javax.swing.JButton" name="jButton16">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/diminuir-zoom.png"/>
+                  <Image iconType="3" name="/icones/diminuir-zoom.png"/>
                 </Property>
                 <Property name="focusable" type="boolean" value="false"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>

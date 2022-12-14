@@ -43,47 +43,47 @@ public class pop_up_Atencao extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Helvetica Neue", 1, 30)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(242, 242, 242));
-        jLabel1.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/atencao.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icones/atencao.png"))); // NOI18N
         jLabel1.setText("Atenção");
 
         jLabel2.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/Union-2.png")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icones/Union-2.png"))); // NOI18N
         jLabel2.setText(" Variável");
         jLabel2.setAlignmentX(0.5F);
 
         jLabel4.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel4.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/Vector 2.png")); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icones/Vector 2.png"))); // NOI18N
         jLabel4.setText(" Estrutura WHILE");
         jLabel4.setAlignmentX(0.5F);
 
         jLabel5.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel5.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/[][].png")); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icones/[][].png"))); // NOI18N
         jLabel5.setText(" Array/Vetor/matriz");
         jLabel5.setAlignmentX(0.5F);
 
         jLabel6.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel6.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/for.png")); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icones/for.png"))); // NOI18N
         jLabel6.setText(" Estrutura FOR");
         jLabel6.setAlignmentX(0.5F);
 
         jLabel7.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel7.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/VF.png")); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icones/VF.png"))); // NOI18N
         jLabel7.setText(" Estrutura IF");
         jLabel7.setAlignmentX(0.5F);
 
         jLabel8.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel8.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/Ellipse 2.png")); // NOI18N
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icones/Ellipse 2.png"))); // NOI18N
         jLabel8.setText(" Dado/Data");
         jLabel8.setAlignmentX(0.5F);
 
         jToggleButton1.setBackground(new java.awt.Color(96, 164, 178));
-        jToggleButton1.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/close.png")); // NOI18N
+        jToggleButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icones/close.png"))); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);

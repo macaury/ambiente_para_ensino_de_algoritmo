@@ -110,7 +110,7 @@
               <Color blue="f2" green="f2" red="f2" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/atencao.png"/>
+              <Image iconType="3" name="/icones/atencao.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Aten&#xe7;&#xe3;o"/>
           </Properties>
@@ -124,7 +124,7 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/Union-2.png"/>
+              <Image iconType="3" name="/icones/Union-2.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value=" Vari&#xe1;vel"/>
             <Property name="alignmentX" type="float" value="0.5"/>
@@ -139,7 +139,7 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/Vector 2.png"/>
+              <Image iconType="3" name="/icones/Vector 2.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value=" Estrutura WHILE"/>
             <Property name="alignmentX" type="float" value="0.5"/>
@@ -154,7 +154,7 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/[][].png"/>
+              <Image iconType="3" name="/icones/[][].png"/>
             </Property>
             <Property name="text" type="java.lang.String" value=" Array/Vetor/matriz"/>
             <Property name="alignmentX" type="float" value="0.5"/>
@@ -169,7 +169,7 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/for.png"/>
+              <Image iconType="3" name="/icones/for.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value=" Estrutura FOR"/>
             <Property name="alignmentX" type="float" value="0.5"/>
@@ -184,7 +184,7 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/VF.png"/>
+              <Image iconType="3" name="/icones/VF.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value=" Estrutura IF"/>
             <Property name="alignmentX" type="float" value="0.5"/>
@@ -199,7 +199,7 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/Ellipse 2.png"/>
+              <Image iconType="3" name="/icones/Ellipse 2.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value=" Dado/Data"/>
             <Property name="alignmentX" type="float" value="0.5"/>
@@ -211,7 +211,7 @@
               <Color blue="b2" green="a4" red="60" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/close.png"/>
+              <Image iconType="3" name="/icones/close.png"/>
             </Property>
           </Properties>
         </Component>

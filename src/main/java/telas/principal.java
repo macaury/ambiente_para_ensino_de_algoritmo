@@ -71,7 +71,7 @@ public class principal extends javax.swing.JFrame {
         jToolBar1.add(filler6);
 
         btn_home.setBackground(new java.awt.Color(96, 164, 178));
-        btn_home.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/home.png")); // NOI18N
+        btn_home.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icones/home.png"))); // NOI18N
         btn_home.setAlignmentX(0.5F);
         btn_home.setFocusable(false);
         btn_home.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -85,7 +85,7 @@ public class principal extends javax.swing.JFrame {
         jToolBar1.add(filler1);
 
         btn_variavel.setBackground(new java.awt.Color(96, 164, 178));
-        btn_variavel.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/Union-2.png")); // NOI18N
+        btn_variavel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icones/Union-2.png"))); // NOI18N
         btn_variavel.setAlignmentX(0.5F);
         btn_variavel.setFocusable(false);
         btn_variavel.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -94,7 +94,7 @@ public class principal extends javax.swing.JFrame {
         jToolBar1.add(filler2);
 
         btn_for.setBackground(new java.awt.Color(96, 164, 178));
-        btn_for.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/for.png")); // NOI18N
+        btn_for.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icones/for.png"))); // NOI18N
         btn_for.setToolTipText("");
         btn_for.setAlignmentX(0.5F);
         btn_for.setFocusable(false);
@@ -104,7 +104,7 @@ public class principal extends javax.swing.JFrame {
         jToolBar1.add(filler3);
 
         btn_array.setBackground(new java.awt.Color(96, 164, 178));
-        btn_array.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/[][].png")); // NOI18N
+        btn_array.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icones/[][].png"))); // NOI18N
         btn_array.setAlignmentX(0.5F);
         btn_array.setFocusable(false);
         btn_array.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -113,7 +113,7 @@ public class principal extends javax.swing.JFrame {
         jToolBar1.add(filler4);
 
         btn_IF.setBackground(new java.awt.Color(96, 164, 178));
-        btn_IF.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/VF.png")); // NOI18N
+        btn_IF.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icones/VF.png"))); // NOI18N
         btn_IF.setAlignmentX(0.5F);
         btn_IF.setFocusable(false);
         btn_IF.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -122,7 +122,7 @@ public class principal extends javax.swing.JFrame {
         jToolBar1.add(filler5);
 
         btn_while.setBackground(new java.awt.Color(96, 164, 178));
-        btn_while.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/Vector 2.png")); // NOI18N
+        btn_while.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icones/Vector 2.png"))); // NOI18N
         btn_while.setAlignmentX(0.5F);
         btn_while.setFocusable(false);
         btn_while.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -131,7 +131,7 @@ public class principal extends javax.swing.JFrame {
         jToolBar1.add(filler8);
 
         btn_help.setBackground(new java.awt.Color(96, 164, 178));
-        btn_help.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/ajuda.png")); // NOI18N
+        btn_help.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icones/ajuda.png"))); // NOI18N
         btn_help.setAlignmentX(0.5F);
         btn_help.setFocusable(false);
         btn_help.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -140,7 +140,7 @@ public class principal extends javax.swing.JFrame {
         jToolBar1.add(filler9);
 
         btn_ajustes.setBackground(new java.awt.Color(96, 164, 178));
-        btn_ajustes.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/configuracao.png")); // NOI18N
+        btn_ajustes.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icones/configuracao.png"))); // NOI18N
         btn_ajustes.setAlignmentX(0.5F);
         btn_ajustes.setFocusable(false);
         btn_ajustes.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -156,7 +156,7 @@ public class principal extends javax.swing.JFrame {
         btn_slide_atual.setText("atual");
 
         btn_novo_slide.setBackground(new java.awt.Color(255, 250, 255));
-        btn_novo_slide.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/add.png")); // NOI18N
+        btn_novo_slide.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icones/add.png"))); // NOI18N
         btn_novo_slide.setMaximumSize(null);
         btn_novo_slide.setPreferredSize(new java.awt.Dimension(150, 150));
 
@@ -198,7 +198,7 @@ public class principal extends javax.swing.JFrame {
         jToolBar2.setRequestFocusEnabled(false);
         jToolBar2.add(filler11);
 
-        jButton12.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/navegacao.png")); // NOI18N
+        jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icones/navegacao.png"))); // NOI18N
         jButton12.setToolTipText("");
         jButton12.setFocusable(false);
         jButton12.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -206,21 +206,21 @@ public class principal extends javax.swing.JFrame {
         jToolBar2.add(jButton12);
         jToolBar2.add(filler12);
 
-        jButton13.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/editar.png")); // NOI18N
+        jButton13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icones/editar.png"))); // NOI18N
         jButton13.setFocusable(false);
         jButton13.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton13.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jToolBar2.add(jButton13);
         jToolBar2.add(filler13);
 
-        jButton14.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/apagar.png")); // NOI18N
+        jButton14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icones/apagar.png"))); // NOI18N
         jButton14.setFocusable(false);
         jButton14.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton14.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jToolBar2.add(jButton14);
         jToolBar2.add(filler14);
 
-        jButton15.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/aumentar-zoom.png")); // NOI18N
+        jButton15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icones/aumentar-zoom.png"))); // NOI18N
         jButton15.setAlignmentX(0.5F);
         jButton15.setFocusable(false);
         jButton15.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -228,7 +228,7 @@ public class principal extends javax.swing.JFrame {
         jToolBar2.add(jButton15);
         jToolBar2.add(filler15);
 
-        jButton16.setIcon(new javax.swing.ImageIcon("/Users/macaurycarvalho/NetBeansProjects/ambiente_para_ensino_de_algoritmo/ambiente_para_ensino_de_algoritmo/src/main/java/icones/diminuir-zoom.png")); // NOI18N
+        jButton16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icones/diminuir-zoom.png"))); // NOI18N
         jButton16.setFocusable(false);
         jButton16.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton16.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
